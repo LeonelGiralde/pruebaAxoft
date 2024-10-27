@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\AcademiaChallenge.csproj": {}
+    "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\AcademiaChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\AcademiaChallenge.csproj": {
+    "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\AcademiaChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\AcademiaChallenge.csproj",
+        "projectUniqueName": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\AcademiaChallenge.csproj",
         "projectName": "AcademiaChallenge",
-        "projectPath": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\AcademiaChallenge.csproj",
+        "projectPath": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\AcademiaChallenge.csproj",
         "packagesPath": "C:\\Users\\Leone\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\obj\\",
+        "outputPath": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leone\\AppData\\Roaming\\NuGet\\NuGet.Config"

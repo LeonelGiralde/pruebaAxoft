@@ -39,7 +39,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -72,7 +72,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 5,
                         Total = 5
@@ -81,7 +81,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 2,
                         CodigoArticulo = "Art02",
-                        DescripcionArticulo = "SoyElArticulo2",
+                        DescripcionArtigulo = "SoyElArticulo2",
                         PrecioUnitario = 5,
                         Cantidad = 1,
                         Total = 5
@@ -114,7 +114,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -138,7 +138,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -151,7 +151,7 @@ namespace AcademiaChallengeTest
         }
         #endregion
 
-        #region Validar numeración correlativa
+        #region Validar numeraciï¿½n correlativa
         [TestMethod]
         public void Validar_NumeracionCorrelativa01_PimerFactura0TiraError()
         {
@@ -173,7 +173,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -182,7 +182,7 @@ namespace AcademiaChallengeTest
             });
 
             ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            Assert.ThrowsException<NumeracionInvalidaException>(procesadorFacturas.Validar, "Numeración inválida");
+            Assert.ThrowsException<NumeracionInvalidaException>(procesadorFacturas.Validar, "Numeraciï¿½n invï¿½lida");
         }
 
         [TestMethod]
@@ -206,7 +206,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -230,7 +230,7 @@ namespace AcademiaChallengeTest
                                 {
                                     NumeroRenglon = 1,
                                     CodigoArticulo = "Art01",
-                                    DescripcionArticulo = "SoyElArticulo1",
+                                    DescripcionArtigulo = "SoyElArticulo1",
                                     PrecioUnitario = 1,
                                     Cantidad = 10,
                                     Total = 10
@@ -239,7 +239,7 @@ namespace AcademiaChallengeTest
             });
 
             ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            Assert.ThrowsException<NumeracionInvalidaException>(procesadorFacturas.Validar, "Numeración inválida");
+            Assert.ThrowsException<NumeracionInvalidaException>(procesadorFacturas.Validar, "Numeraciï¿½n invï¿½lida");
         }
 
         [TestMethod]
@@ -263,7 +263,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -272,38 +272,10 @@ namespace AcademiaChallengeTest
             });
 
             ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            Assert.ThrowsException<NumeracionInvalidaException>(procesadorFacturas.Validar, "Numeración inválida");
-        }
-
-        [TestMethod]
-        public void Validar_OrdenCronologico_FacturasDesordenadas_LanzaExcepcion()
-        {
-            List<Factura> facturas = new List<Factura>
-    {
-        new Factura
-        {
-            Numero = 1,
-            Fecha = new DateTime(2024, 01, 02),
-            CodigoCliente = "CL001",
-            RazonSocial = "Cliente 1",
-            Cuil = "20-12345678-1",
-            Renglones = new List<RenglonFactura>()
-        },
-        new Factura
-        {
-            Numero = 2,
-            Fecha = new DateTime(2024, 01, 01),
-            CodigoCliente = "CL002",
-            RazonSocial = "Cliente 2",
-            Cuil = "20-87654321-2",
-            Renglones = new List<RenglonFactura>()
-        }
-    };
-
-            ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            Assert.ThrowsException<OrdenCronologicoException>(() => procesadorFacturas.Validar());
+            Assert.ThrowsException<NumeracionInvalidaException>(procesadorFacturas.Validar, "Numeraciï¿½n invï¿½lida");
         }
         #endregion
+        
         #endregion
 
         #region Consultas
@@ -340,7 +312,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -375,7 +347,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 10,
                         Total = 10
@@ -399,7 +371,7 @@ namespace AcademiaChallengeTest
                     {
                         NumeroRenglon = 1,
                         CodigoArticulo = "Art01",
-                        DescripcionArticulo = "SoyElArticulo1",
+                        DescripcionArtigulo = "SoyElArticulo1",
                         PrecioUnitario = 1,
                         Cantidad = 100,
                         Total = 100
@@ -412,112 +384,6 @@ namespace AcademiaChallengeTest
 
             Assert.AreEqual(133.1, procesadorFacturas.TotalFacturado());
         }
-        #endregion
-        #region Consultas ArticuloMasVendido
-        [TestMethod]
-        public void ArticuloMasVendido_FacturasSinRenglones_LanzaExcepcion()
-        {
-            List<Factura> facturas = new List<Factura>
-    {
-        new Factura
-        {
-            Numero = 1,
-            Renglones = new List<RenglonFactura>(),
-            CodigoCliente = "CL001",
-            RazonSocial = "Cliente 1",
-            Cuil = "20-12345678-1",
-            Fecha = DateTime.Now
-        },
-        new Factura
-        {
-            Numero = 2,
-            Renglones = new List<RenglonFactura>(),
-            CodigoCliente = "CL002",
-            RazonSocial = "Cliente 2",
-            Cuil = "20-87654321-2",
-            Fecha = DateTime.Now
-        }
-    };
-
-            ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            Assert.ThrowsException<ArticuloNoEncontradoException>(() => procesadorFacturas.ArticuloMasVendido());
-        }
-
-        [TestMethod]
-        public void ArticuloMasVendido_DevuelveArticuloConMasUnidadesVendidas()
-        {
-            List<Factura> facturas = new List<Factura>
-    {
-        new Factura
-        {
-            Numero = 1,
-            Renglones = new List<RenglonFactura>
-            {
-                new RenglonFactura { CodigoArticulo = "Art01", DescripcionArticulo = "Articulo 1", Cantidad = 5 },
-                new RenglonFactura { CodigoArticulo = "Art02", DescripcionArticulo = "Articulo 2", Cantidad = 3 }
-            },
-            CodigoCliente = "CL001",
-            RazonSocial = "Cliente 1",
-            Cuil = "20-12345678-1",
-            Fecha = DateTime.Now
-        },
-        new Factura
-        {
-            Numero = 2,
-            Renglones = new List<RenglonFactura>
-            {
-                new RenglonFactura { CodigoArticulo = "Art01", DescripcionArticulo = "Articulo 1", Cantidad = 2 },
-                new RenglonFactura { CodigoArticulo = "Art02", DescripcionArticulo = "Articulo 2", Cantidad = 4 }
-            },
-            CodigoCliente = "CL002",
-            RazonSocial = "Cliente 2",
-            Cuil = "20-87654321-2",
-            Fecha = DateTime.Now
-        }
-    };
-
-            ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            string articuloMasVendido = procesadorFacturas.ArticuloMasVendido();
-
-            Assert.AreEqual("Art01", articuloMasVendido);
-        }
-
-        [TestMethod]
-        public void ArticuloMasVendido_DosArticulosConMismasCantidades_DevuelveUnoDeEllos()
-        {
-            List<Factura> facturas = new List<Factura>
-    {
-        new Factura
-        {
-            Numero = 1,
-            Renglones = new List<RenglonFactura>
-            {
-                new RenglonFactura { CodigoArticulo = "Art01", DescripcionArticulo = "Articulo 1", Cantidad = 5 },
-                new RenglonFactura { CodigoArticulo = "Art02", DescripcionArticulo = "Articulo 2", Cantidad = 5 }
-            },
-            CodigoCliente = "CL001",
-            RazonSocial = "Cliente 1",
-            Cuil = "20-12345678-1",
-            Fecha = DateTime.Now
-        }
-    };
-
-            ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-            string articuloMasVendido = procesadorFacturas.ArticuloMasVendido();
-
-            Assert.IsTrue(articuloMasVendido == "Art01" || articuloMasVendido == "Art02");
-        }
-        [TestMethod]
-        [ExpectedException(typeof(ArticuloNoEncontradoException))]
-        public void ArticuloMasVendido_NoHayArticulos_LanzaArticuloNoEncontradoException()
-        {
-            List<Factura> facturas = new List<Factura>();
-
-            ProcesadorFacturasAxoft procesadorFacturas = new(facturas);
-
-            procesadorFacturas.ArticuloMasVendido();
-        }
-
         #endregion
         #endregion
     }

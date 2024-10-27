@@ -1090,11 +1090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallengeTest\\AcademiaChallengeTest.csproj",
+      "projectUniqueName": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallengeTest\\AcademiaChallengeTest.csproj",
       "projectName": "AcademiaChallengeTest",
-      "projectPath": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallengeTest\\AcademiaChallengeTest.csproj",
+      "projectPath": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallengeTest\\AcademiaChallengeTest.csproj",
       "packagesPath": "C:\\Users\\Leone\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallengeTest\\obj\\",
+      "outputPath": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallengeTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leone\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1109,8 +1109,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\AcademiaChallenge.csproj": {
-              "projectPath": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallenge\\AcademiaChallenge.csproj"
+            "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\AcademiaChallenge.csproj": {
+              "projectPath": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallenge\\AcademiaChallenge.csproj"
             }
           }
         }

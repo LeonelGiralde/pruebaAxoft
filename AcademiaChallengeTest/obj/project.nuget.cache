@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ynJWKGg7jhU=",
+  "dgSpecHash": "JJrhKjJYXTs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leone\\Downloads\\academiachallenge-mainprueba\\academiachallenge-main\\AcademiaChallengeTest\\AcademiaChallengeTest.csproj",
+  "projectFilePath": "c:\\Users\\Leone\\academiachallenge\\AcademiaChallengeTest\\AcademiaChallengeTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leone\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Leone\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
