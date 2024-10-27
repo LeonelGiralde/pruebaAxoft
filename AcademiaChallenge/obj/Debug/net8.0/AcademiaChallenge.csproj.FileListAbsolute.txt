@@ -1,0 +1,11 @@
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\bin\Debug\net8.0\AcademiaChallenge.deps.json
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\bin\Debug\net8.0\AcademiaChallenge.dll
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\bin\Debug\net8.0\AcademiaChallenge.pdb
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\AcademiaChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\AcademiaChallenge.AssemblyInfoInputs.cache
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\AcademiaChallenge.AssemblyInfo.cs
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\AcademiaChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\AcademiaChallenge.dll
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\refint\AcademiaChallenge.dll
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\AcademiaChallenge.pdb
+C:\Users\Leone\Downloads\academiachallenge-mainprueba\academiachallenge-main\AcademiaChallenge\obj\Debug\net8.0\ref\AcademiaChallenge.dll

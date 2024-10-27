@@ -1,0 +1,24 @@
+image: mcr.microsoft.com/dotnet/sdk:8.0
+
+stages:
+  - lint
+  - build
+  - test
+
+lint:
+  stage: lint
+  allow_failure: true
+  script:
+    - dotnet restore AcademiaChallenge.sln
+    - dotnet format AcademiaChallenge.sln --verify-no-changes
+
+build:
+  stage: build
+  script:
+    - dotnet restore AcademiaChallenge.sln
+    - dotnet build AcademiaChallenge.sln --configuration Release
+
+test:
+  stage: test
+  script:
+    - dotnet test AcademiaChallengeTest/AcademiaChallengeTest.csproj --configuration Release --verbosity normal --logger:trx
